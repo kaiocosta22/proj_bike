@@ -5,11 +5,9 @@
     letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body{
     margin: 0;
-    background: rgb(230, 227, 227);
-    
+    background: rgb(230, 227, 227); 
 }
 header{
     text-align:center;
@@ -34,27 +32,30 @@ header{
     border-radius: 4px;
     font-size: 12px;
 }
-
+.links a:hover{
+    border: 2px solid red;
+}
+main section{
+    justify-content: center;
+}
 .section1{
     display: flex;
     flex-direction: row;
-    padding-inline: 55px;
+    padding-inline: 5px;
     padding-top: 35px;
+    width: 800px;
 }
 .section1 img{
-    height: auto;
-    width: 300px;
+   max-width: 400px;
 }
 .bicicleta{
     background:whitesmoke;
-    padding: 28px;
+    padding-top: 58px;
+    padding-inline: 28px;
     text-align: end;
 }
 .section1 h1{
    padding-bottom: 10px;
-}
-.section1 p{
-    
 }
 .section1 button{
     padding: 10px;
@@ -63,21 +64,28 @@ header{
     background: rgb(209, 89, 9);
     color: white;
     margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color:rgb(167, 71, 7) ;
 }
 .section2{
     display: flex;
     flex-direction: row;
-    padding-inline: 25px;
+    padding-bottom: 30px;
 }
 .pt2{
     display: flex;
     flex-direction: column;
     background: whitesmoke;
+    max-width: 400px;
 }
 .vant{
-    padding: 34px;
-    text-align: center;
-    font-size: 25px;
+    padding-top: 10rem;
+    padding-inline: 58px;
+    text-align: end;
+    font-size: 15px;
 }
 .eletrica{
     margin: 10px;
@@ -86,13 +94,24 @@ header{
     padding: 10px;
     flex-direction: column;
 }
+.bike-elet{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .velocidade{
     margin: 10px;
     display: flex;
     padding: 10px;
     flex-direction: column;
 }
-
+.section2 p{
+    text-align: justify;
+    padding-inline: 35px;
+}
+section{
+    margin: 0 auto;
+}
 footer{
     text-align: center;
     background: whitesmoke;
